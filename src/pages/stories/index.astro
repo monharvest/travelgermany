@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { excerptFromContent, firstImageFromContent } from '../../lib/content';
+
+const posts = (await getCollection('posts')).sort((a, b) => (a.data.date < b.data.date ? 1 : -1));
+---
+
+<SiteLayout title="Stories | Travel Germany" description="All travel stories imported from your WordPress archive.">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/">TRAVEL GERMANY</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="container">
+      <div class="section-head">
+        <h2>All Stories</h2>
+      </div>
+      <div class="grid posts-grid">
+        {posts.map((post, idx) => (
+          <PostCard
+            href={`/stories/${post.data.slug}`}
+            title={post.data.title}
+            excerpt={post.data.excerpt || excerptFromContent(post.body ?? '')}
+            date={post.data.date}
+            image={post.data.featuredImage || firstImageFromContent(post.body ?? '')}
+            category={post.data.categories[0] || 'Travel Story'}
+            spanClass={idx % 3 === 0 ? 'span-6' : 'span-4'}
+          />
+        ))}
+      </div>
+    </section>
+  </main>
+</SiteLayout>

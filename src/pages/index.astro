@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import site from '../data/site.json';
+import { excerptFromContent, firstImageFromContent } from '../lib/content';
+import PostCard from '../components/PostCard.astro';
+
+const posts = (await getCollection('posts')).sort((a, b) => (a.data.date < b.data.date ? 1 : -1));
+
+const pages = (await getCollection('pages'))
+  .filter((page) => page.data.slug !== 'home')
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const featured = posts[0];
+const leadImage = featured?.data.featuredImage || (featured ? firstImageFromContent(featured.body ?? '') : '');
+const latest = posts.slice(0, 6);
+const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categories))].slice(0, 8);
+---
+
+<SiteLayout title={`${site.title} | Hidden Germany`} description={site.description}>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/">TRAVEL GERMANY</a>
+      <nav class="nav">
+        <a href="/stories">Stories</a>
+        {pages.map((page) => (
+          <a href={`/${page.data.slug}`}>{page.data.title}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-card">
+        <div class="hero-copy">
+          <p class="kicker">Editorial travel journal</p>
+          <h1>Germany beyond guidebooks.</h1>
+          <p>
+            {site.description} We rebuilt this site from your full WordPress backup and turned it into a fast,
+            deploy-ready Astro experience for Cloudflare.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="/stories">Read stories</a>
+            <a class="btn" href="/about-us">About us</a>
+          </div>
+        </div>
+        <div class="hero-image" style={leadImage ? `background-image:url('${leadImage}')` : ''}></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>Latest Destinations</h2>
+        <a class="muted" href="/stories">See all</a>
+      </div>
+      <div class="grid posts-grid">
+        {latest.map((post) => (
+          <PostCard
+            href={`/stories/${post.data.slug}`}
+            title={post.data.title}
+            excerpt={post.data.excerpt || excerptFromContent(post.body ?? '')}
+            date={post.data.date}
+            image={post.data.featuredImage || firstImageFromContent(post.body ?? '')}
+            category={post.data.categories[0] || 'Travel Story'}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>Explore by Theme</h2>
+      </div>
+      <div class="hero-actions">
+        {uniqueCategories.map((category) => (
+          <span class="btn">{category}</span>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Travelgermany.info © 2026</div>
+  </footer>
+</SiteLayout>

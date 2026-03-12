@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { firstImageFromContent, formatDate } from '../../lib/content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.data.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const hero = post.data.featuredImage || firstImageFromContent(post.body ?? '');
+---
+
+<SiteLayout title={`${post.data.title} | Travel Germany`} description={post.data.excerpt}>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/">TRAVEL GERMANY</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/stories">Stories</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <article class="container prose">
+      <p class="kicker">{post.data.categories[0] || 'Travel Story'}</p>
+      <h1>{post.data.title}</h1>
+      <p class="muted">{formatDate(post.data.date)}</p>
+      {hero ? <Image src={hero} alt={post.data.title} width={1400} height={900} loading="eager" /> : null}
+      <Content />
+    </article>
+  </main>
+</SiteLayout>

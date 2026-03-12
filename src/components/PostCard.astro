@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import { formatDate } from '../lib/content';
+
+interface Props {
+  href: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  image?: string;
+  category?: string;
+  spanClass?: string;
+}
+
+const {
+  href,
+  title,
+  excerpt,
+  date,
+  image = '',
+  category = 'Travel Story',
+  spanClass = 'span-4',
+} = Astro.props;
+---
+
+<article class={`card ${spanClass}`}>
+  {image ? (
+    <Image class="media" src={image} alt={title} width={960} height={600} loading="lazy" />
+  ) : null}
+  <div class="card-content">
+    <p class="kicker">{category}</p>
+    <h3><a href={href}>{title}</a></h3>
+    <p>{excerpt}</p>
+    <div class="card-meta">
+      <span>{formatDate(date)}</span>
+      <a href={href}>Read story</a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,294 @@
+:root {
+  --bg: #f4efe6;
+  --ink: #151515;
+  --ink-soft: #4f4a46;
+  --paper: #fffaf2;
+  --accent: #0f6b6f;
+  --accent-2: #cb4f27;
+  --line: #e6d8c2;
+  --max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: radial-gradient(circle at 20% 0%, #fff8ec 0%, var(--bg) 48%, #ece2d4 100%);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(var(--max), 92vw);
+  margin: 0 auto;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--paper) 84%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar-inner {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.08em;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+}
+
+.nav {
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  font-size: 0.93rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.hero {
+  padding: 4.8rem 0 3rem;
+}
+
+.hero-card {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(130deg, #f7ecdc 0%, #efe2cd 52%, #f8f4ec 100%);
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.hero-copy {
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.hero h1 {
+  margin: 0.5rem 0 0;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.08;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+}
+
+.hero p {
+  color: var(--ink-soft);
+  max-width: 55ch;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: 1px solid var(--ink);
+  padding: 0.72rem 1rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.btn.primary {
+  background: var(--ink);
+  color: white;
+}
+
+.hero-image {
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 5%, rgba(13, 13, 13, 0.4) 100%);
+}
+
+.section {
+  padding: 1.5rem 0 4rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+}
+
+.muted {
+  color: var(--ink-soft);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.posts-grid {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+  overflow: hidden;
+  animation: reveal 560ms ease both;
+}
+
+.card .media {
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0.35rem 0 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.card p {
+  margin: 0.6rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.card-meta {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.card-meta a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.span-6 {
+  grid-column: span 6;
+}
+
+.span-4 {
+  grid-column: span 4;
+}
+
+.page-shell {
+  padding: 3rem 0 4.5rem;
+}
+
+.prose {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--paper);
+  padding: clamp(1.2rem, 3vw, 2.3rem);
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+}
+
+.prose img {
+  border-radius: 14px;
+}
+
+.footer {
+  padding: 3rem 0 4rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-card {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    min-height: 280px;
+  }
+
+  .span-6,
+  .span-4 {
+    grid-column: span 12;
+  }
+}

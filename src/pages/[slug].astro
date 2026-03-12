@@ -1,0 +1,40 @@
+---
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages
+    .filter((page) => page.data.slug !== 'home')
+    .map((page) => ({
+      params: { slug: page.data.slug },
+      props: { page },
+    }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<SiteLayout title={`${page.data.title} | Travel Germany`} description={page.data.excerpt}>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/">TRAVEL GERMANY</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/stories">Stories</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <article class="container prose">
+      <h1>{page.data.title}</h1>
+      <Content />
+      {page.data.slug === 'contact' && <ContactForm />}
+    </article>
+  </main>
+</SiteLayout>

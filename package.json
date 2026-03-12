@@ -1,0 +1,23 @@
+{
+  "name": "astro-site",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "import:wp": "node scripts/import-wordpress.mjs",
+    "sync:uploads": "mkdir -p public/wp-content && rsync -a --delete ../wpclone_backup/wp-content/uploads/ public/wp-content/uploads/",
+    "prepare:content": "npm run import:wp && npm run sync:uploads",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.7",
+    "@astrojs/cloudflare": "^13.1.0",
+    "astro": "^6.0.3",
+    "typescript": "^5.9.3"
+  }
+}
