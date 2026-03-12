@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import MobileNav from '../../components/MobileNav.astro';
 import { firstImageFromContent, formatDate } from '../../lib/content';
 
 export const prerender = true;
@@ -27,6 +28,7 @@ const hero = post.data.featuredImage || firstImageFromContent(post.body ?? '');
         <a href="/">Home</a>
         <a href="/stories">Stories</a>
       </nav>
+      <MobileNav pages={[]} />
     </div>
   </header>
 

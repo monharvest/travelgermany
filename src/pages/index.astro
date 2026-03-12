@@ -4,6 +4,7 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import site from '../data/site.json';
 import { excerptFromContent, firstImageFromContent } from '../lib/content';
 import PostCard from '../components/PostCard.astro';
+import MobileNav from '../components/MobileNav.astro';
 
 const posts = (await getCollection('posts')).sort((a, b) => (a.data.date < b.data.date ? 1 : -1));
 
@@ -27,6 +28,7 @@ const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categorie
           <a href={`/${page.data.slug}`}>{page.data.title}</a>
         ))}
       </nav>
+      <MobileNav pages={pages.map(p => ({ slug: p.data.slug, title: p.data.title }))} />
     </div>
   </header>
 
