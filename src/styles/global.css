@@ -278,6 +278,12 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .nav {
+    display: none !important;
+  }
+}
+
 @media (max-width: 900px) {
   .hero-card {
     grid-template-columns: 1fr;
