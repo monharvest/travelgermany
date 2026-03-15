@@ -1,5 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import SiteLayout from '../layouts/SiteLayout.astro';
 import site from '../data/site.json';
 import { excerptFromContent, firstImageFromContent } from '../lib/content';
@@ -12,8 +14,21 @@ const pages = (await getCollection('pages'))
   .filter((page) => page.data.slug !== 'home')
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/uploads/**/*.{jpeg,jpg,png,webp,gif}',
+  { eager: true }
+);
+
 const featured = posts[0];
-const leadImage = featured?.data.featuredImage || (featured ? firstImageFromContent(featured.body ?? '') : '');
+const leadImagePath = featured?.data.featuredImage || (featured ? firstImageFromContent(featured.body ?? '') : '');
+const leadImageModule = leadImagePath
+  ? allImages[leadImagePath.replace('/wp-content/uploads/', '/src/assets/uploads/')]?.default
+  : null;
+const leadImageOptimized = leadImageModule
+  ? await getImage({ src: leadImageModule, width: 1400, height: 900, format: 'webp', quality: 80 })
+  : null;
+const leadImageUrl = leadImageOptimized?.src ?? leadImagePath;
+
 const latest = posts.slice(0, 6);
 const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categories))].slice(0, 8);
 ---
@@ -47,7 +62,7 @@ const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categorie
             <a class="btn" href="/about-us">About us</a>
           </div>
         </div>
-        <div class="hero-image" style={leadImage ? `background-image:url('${leadImage}')` : ''}></div>
+        <div class="hero-image" style={leadImageUrl ? `background-image:url('${leadImageUrl}')` : ''}></div>
       </div>
     </section>
 
