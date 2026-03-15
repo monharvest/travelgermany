@@ -21,68 +21,6 @@ const { pages = [] } = Astro.props;
   ))}
 </nav>
 
-<style is:global>
-  .mobile-menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    color: var(--ink);
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-  }
-
-  .mobile-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    position: absolute;
-    top: 72px;
-    left: 0;
-    right: 0;
-    background: var(--paper);
-    border-bottom: 1px solid var(--line);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
-
-  .mobile-nav.active {
-    max-height: 500px;
-  }
-
-  .mobile-nav a {
-    padding: 1rem;
-    border-bottom: 1px solid var(--line);
-    font-size: 0.93rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--ink-soft);
-    transition: background 0.2s ease;
-  }
-
-  .mobile-nav a:last-child {
-    border-bottom: none;
-  }
-
-  .mobile-nav a:hover {
-    background: color-mix(in srgb, var(--accent) 5%, transparent);
-  }
-
-  @media (max-width: 768px) {
-    .mobile-menu-toggle {
-      display: flex;
-    }
-
-    .nav {
-      display: none;
-    }
-  }
-</style>
-
 <script>
   const toggle = document.querySelector('.mobile-menu-toggle') as HTMLButtonElement;
   const nav = document.querySelector('#mobile-nav') as HTMLElement;
