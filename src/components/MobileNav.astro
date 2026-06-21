@@ -16,6 +16,7 @@ const { pages = [] } = Astro.props;
 
 <nav class="mobile-nav" id="mobile-nav">
   <a href="/stories">Stories</a>
+  <a href="/blog">Blog</a>
   {pages.map((page) => (
     <a href={`/${page.slug}`}>{page.title}</a>
   ))}
