@@ -66,6 +66,8 @@ const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categorie
               alt=""
               width={1400}
               height={900}
+              widths={[400, 600, 800, 1100, 1400]}
+              sizes="(max-width: 900px) 92vw, 531px"
               format="webp"
               quality={80}
               loading="eager"

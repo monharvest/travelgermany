@@ -35,7 +35,7 @@ const localImage = image
 
 <article class={`card ${spanClass}`}>
   {localImage ? (
-    <Image class="media" src={localImage} alt={title} width={960} height={600} loading="lazy" format="webp" quality={80} />
+    <Image class="media" src={localImage} alt={title} width={960} height={600} widths={[320, 480, 640, 960]} sizes="(max-width: 900px) 92vw, 50vw" loading="lazy" format="webp" quality={80} />
   ) : image ? (
     <img class="media" src={image} alt={title} width="960" height="600" loading="lazy" decoding="async" />
   ) : null}
