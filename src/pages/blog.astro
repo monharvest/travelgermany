@@ -1,0 +1,31 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import MobileNav from '../components/MobileNav.astro';
+---
+
+<SiteLayout title="Blog | Travel Germany" description="Latest travel notes and updates from Travel Germany.">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/">TRAVEL GERMANY</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/stories">Stories</a>
+      </nav>
+      <MobileNav pages={[]} />
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="container">
+      <div class="section-head">
+        <h2>Blog</h2>
+      </div>
+      <div id="soro-blog"></div>
+      <script src="https://app.trysoro.com/api/embed/228af51f-0ec3-4c16-9e30-4a12e8dd15e1" defer is:inline></script>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Travelgermany.info © 2026</div>
+  </footer>
+</SiteLayout>
