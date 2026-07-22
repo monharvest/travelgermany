@@ -4,7 +4,7 @@ title: "10 Hidden Towns in Germany Worth the Detour"
 slug: "hidden-towns-in-germany"
 date: "2026-06-22T07:12:37.336+00:00"
 excerpt: "These hidden towns in Germany offer timbered streets, riverside views, spa culture, and local history far beyond the usual city itinerary."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/0053d019-d68b-47e8-818e-cc588aa00e71.webp"
+featuredImage: "/images/blog/hidden-towns-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---

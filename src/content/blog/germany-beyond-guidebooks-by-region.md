@@ -4,7 +4,7 @@ title: "Germany Beyond Guidebooks, by Region"
 slug: "germany-beyond-guidebooks-by-region"
 date: "2026-06-23T07:03:17.236+00:00"
 excerpt: "Germany beyond guidebooks starts with regions, not checklists. Follow wine valleys, spa towns, and coasts into a richer kind of trip."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/59c46611-7392-4c64-9b69-13aa99d37451.webp"
+featuredImage: "/images/blog/germany-beyond-guidebooks-by-region.webp"
 categories: ["Blog"]
 tags: []
 ---

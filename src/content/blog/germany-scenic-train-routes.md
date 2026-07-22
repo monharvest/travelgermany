@@ -4,7 +4,7 @@ title: "8 Germany Scenic Train Routes Worth Riding"
 slug: "germany-scenic-train-routes"
 date: "2026-06-30T06:24:52.126+00:00"
 excerpt: "These germany scenic train routes reveal river valleys, harbors, forests, and Alpine edges - a richer, slower way to see the country by rail."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/dc24c435-6c32-4816-b27f-610047ac7306.webp"
+featuredImage: "/images/blog/germany-scenic-train-routes.webp"
 categories: ["Blog"]
 tags: []
 ---

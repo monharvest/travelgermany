@@ -4,7 +4,7 @@ title: "7 Spa Towns in Germany Worth the Detour"
 slug: "spa-towns-in-germany"
 date: "2026-06-27T06:39:21.547+00:00"
 excerpt: "These spa towns in Germany pair mineral springs with grand architecture, forest settings, and slow travel appeal beyond the usual city itinerary."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/44bc7585-5226-455b-8cdf-f0f5a2b157c6.webp"
+featuredImage: "/images/blog/spa-towns-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---

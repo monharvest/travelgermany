@@ -4,7 +4,7 @@ title: "German Culture and History for Travelers"
 slug: "german-culture-and-history-for-travelers"
 date: "2026-06-24T06:57:29.934+00:00"
 excerpt: "German culture and history shape every journey, from Roman roots and medieval towns to Bauhaus design, regional traditions, and modern identity."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/f81b95c2-7432-45a0-b0d9-fcb39c7d1b42.webp"
+featuredImage: "/images/blog/german-culture-and-history-for-travelers.webp"
 categories: ["Blog"]
 tags: []
 ---

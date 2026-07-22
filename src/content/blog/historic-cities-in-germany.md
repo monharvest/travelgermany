@@ -4,7 +4,7 @@ title: "7 Historic Cities in Germany Worth Your Time"
 slug: "historic-cities-in-germany"
 date: "2026-07-02T06:12:45.84+00:00"
 excerpt: "Historic cities in Germany reveal Roman ruins, Gothic skylines, merchant houses, and layered local culture beyond the usual big-city stops."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/b1050cce-2d90-4287-bac5-367c178328f3.webp"
+featuredImage: "/images/blog/historic-cities-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---

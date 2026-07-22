@@ -4,7 +4,7 @@ title: "12 Best Small Cities in Germany"
 slug: "best-small-cities-in-germany"
 date: "2026-07-01T06:15:55.622+00:00"
 excerpt: "Searching for the best small cities in Germany? These 12 places pair rich history, walkable charm, and strong local character."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/c1d8e227-9e36-4133-9858-043d58f4b522.webp"
+featuredImage: "/images/blog/best-small-cities-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---

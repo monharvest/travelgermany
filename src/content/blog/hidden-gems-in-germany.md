@@ -4,7 +4,7 @@ title: "11 Hidden Gems in Germany Worth the Detour"
 slug: "hidden-gems-in-germany"
 date: "2026-06-21T18:54:37.266+00:00"
 excerpt: "These hidden gems in Germany reveal spa towns, harbors, castles, and quiet cities that offer culture, beauty, and fewer crowds."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/3ba81788-4608-4c14-975f-e783d3be5714.webp"
+featuredImage: "/images/blog/hidden-gems-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---
