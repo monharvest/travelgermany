@@ -21,6 +21,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    <slot name="head" />
     <meta name="generator" content={Astro.generator} />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-124N0S5ZQR"></script>
     <script is:inline>

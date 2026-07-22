@@ -70,7 +70,7 @@ tags: []
 <div class="wp-block-uagb-advanced-heading uagb-block-565ce4a2"><h4 class="uagb-heading-text">Get the latest issue of our eMagazine lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4></div>
 
 <div class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-85966ebd"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-34436174 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="#" rel="follow noopener" target="_self" role="button"><div class="uagb-button__link">Download</div></a></div></div>
+
 </div></div>
 </div>
 </div></div>

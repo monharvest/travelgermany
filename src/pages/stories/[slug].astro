@@ -3,44 +3,29 @@ import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { getCollection, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import MobileNav from '../../components/MobileNav.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
 import { firstImageFromContent, formatDate } from '../../lib/content';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map((post) => ({
-    params: { slug: post.data.slug },
-    props: { post },
-  }));
+  return posts.map((post) => ({ params: { slug: post.data.slug }, props: { post } }));
 }
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/uploads/**/*.{jpeg,jpg,png,webp,gif}',
   { eager: true }
 );
-
 const { post } = Astro.props;
 const { Content } = await render(post);
 const heroPath = post.data.featuredImage || firstImageFromContent(post.body ?? '');
-const heroImage = heroPath
-  ? allImages[heroPath.replace('/wp-content/uploads/', '/src/assets/uploads/')]?.default
-  : null;
+const heroImage = heroPath ? allImages[heroPath.replace('/wp-content/uploads/', '/src/assets/uploads/')]?.default : null;
 ---
 
 <SiteLayout title={`${post.data.title} | Travel Germany`} description={post.data.excerpt}>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="/">TRAVEL GERMANY</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/stories">Stories</a>
-      </nav>
-      <MobileNav pages={[]} />
-    </div>
-  </header>
-
+  <SiteHeader />
   <main class="page-shell">
     <article class="container prose">
       <p class="kicker">{post.data.categories[0] || 'Travel Story'}</p>
@@ -54,4 +39,5 @@ const heroImage = heroPath
       <Content />
     </article>
   </main>
+  <SiteFooter />
 </SiteLayout>

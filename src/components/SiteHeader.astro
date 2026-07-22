@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import MobileNav from './MobileNav.astro';
+
+const primaryPages = (await getCollection('pages'))
+  .filter((page) => !['home', 'privacy', 'impressum', 'affiliate-disclosure'].includes(page.data.slug))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">TRAVEL GERMANY</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="/stories">Stories</a>
+      <a href="/blog">Blog</a>
+      {primaryPages.map((page) => <a href={`/${page.data.slug}`}>{page.data.title}</a>)}
+    </nav>
+    <MobileNav pages={primaryPages.map((page) => ({ slug: page.data.slug, title: page.data.title }))} />
+  </div>
+</header>

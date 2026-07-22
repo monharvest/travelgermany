@@ -277,6 +277,23 @@ img {
   font-size: 0.75rem;
 }
 
+.footer-inner,
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-inner {
+  justify-content: space-between;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 @keyframes reveal {
   from {
     opacity: 0;

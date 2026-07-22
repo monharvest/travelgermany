@@ -1,0 +1,44 @@
+---
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { formatDate } from '../../lib/content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const articles = await getCollection('blog');
+  return articles.map((article) => ({ params: { slug: article.data.slug }, props: { article } }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+const canonicalUrl = new URL(`/blog/${article.data.slug}/`, Astro.site).toString();
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: article.data.title,
+  description: article.data.excerpt,
+  datePublished: article.data.date,
+  dateModified: article.data.date,
+  mainEntityOfPage: canonicalUrl,
+  image: article.data.featuredImage || undefined,
+  publisher: { '@type': 'Organization', name: 'Travel Germany' },
+};
+---
+
+<SiteLayout title={`${article.data.title} | Travel Germany`} description={article.data.excerpt}>
+  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
+  <SiteHeader />
+  <main class="page-shell">
+    <article class="container prose">
+      <p class="kicker">Blog</p>
+      <h1>{article.data.title}</h1>
+      <p class="muted">Published {formatDate(article.data.date)}</p>
+      {article.data.featuredImage && <img src={article.data.featuredImage} alt="" width="1200" height="675" loading="eager" decoding="async" />}
+      <Content />
+    </article>
+  </main>
+  <SiteFooter />
+</SiteLayout>

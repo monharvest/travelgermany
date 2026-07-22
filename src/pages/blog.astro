@@ -1,31 +1,32 @@
 ---
+import { getCollection } from 'astro:content';
 import SiteLayout from '../layouts/SiteLayout.astro';
-import MobileNav from '../components/MobileNav.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import PostCard from '../components/PostCard.astro';
+
+const articles = (await getCollection('blog')).sort((a, b) => (a.data.date < b.data.date ? 1 : -1));
+const articleSlugs = articles.map((article) => article.data.slug);
 ---
 
-<SiteLayout title="Blog | Travel Germany" description="Latest travel notes and updates from Travel Germany.">
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="/">TRAVEL GERMANY</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/stories">Stories</a>
-      </nav>
-      <MobileNav pages={[]} />
-    </div>
-  </header>
-
+<SiteLayout title="Blog | Travel Germany" description="Practical travel notes and hidden places across Germany.">
+  <SiteHeader />
   <main class="page-shell">
     <section class="container">
-      <div class="section-head">
-        <h2>Blog</h2>
+      <div class="section-head"><h1>Blog</h1></div>
+      <div class="grid posts-grid">
+        {articles.map((article, index) => (
+          <PostCard href={`/blog/${article.data.slug}/`} title={article.data.title} excerpt={article.data.excerpt} date={article.data.date} image={article.data.featuredImage} category="Blog" spanClass={index % 3 === 0 ? 'span-6' : 'span-4'} />
+        ))}
       </div>
-      <div id="soro-blog"></div>
-      <script src="https://app.trysoro.com/api/embed/228af51f-0ec3-4c16-9e30-4a12e8dd15e1" defer is:inline></script>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container">Travelgermany.info © 2026</div>
-  </footer>
+  <SiteFooter />
 </SiteLayout>
+
+<script define:vars={{ articleSlugs }}>
+  const legacySlug = new URLSearchParams(window.location.search).get('post');
+  if (legacySlug && articleSlugs.includes(legacySlug)) {
+    window.location.replace(`/blog/${legacySlug}/`);
+  }
+</script>

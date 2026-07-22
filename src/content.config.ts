@@ -20,6 +20,14 @@ const posts = defineCollection({
   schema: baseSchema,
 });
 
+const blog = defineCollection({
+  loader: glob({
+    pattern: '**/*.md',
+    base: './src/content/blog',
+  }),
+  schema: baseSchema,
+});
+
 const pages = defineCollection({
   loader: glob({
     pattern: '**/*.md',
@@ -30,5 +38,6 @@ const pages = defineCollection({
 
 export const collections = {
   posts,
+  blog,
   pages,
 };
