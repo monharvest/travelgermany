@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<SiteLayout title="Page not found | Travel Germany" description="The requested Travel Germany page could not be found.">
+  <Fragment slot="head"><meta name="robots" content="noindex" /></Fragment>
+  <SiteHeader />
+  <main class="page-shell">
+    <article class="container prose">
+      <h1>Page not found</h1>
+      <p>The page you requested does not exist or may have moved.</p>
+      <p><a href="/">Return to the Travel Germany homepage</a>.</p>
+    </article>
+  </main>
+  <SiteFooter />
+</SiteLayout>
