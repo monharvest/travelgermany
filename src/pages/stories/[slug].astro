@@ -24,7 +24,7 @@ const heroPath = post.data.featuredImage || firstImageFromContent(post.body ?? '
 const heroImage = heroPath ? allImages[heroPath.replace('/wp-content/uploads/', '/src/assets/uploads/')]?.default : null;
 ---
 
-<SiteLayout title={`${post.data.title} | Travel Germany`} description={post.data.excerpt}>
+<SiteLayout title={`${post.data.title} | Travel Germany`} description={post.data.excerpt} image={heroPath} type="article">
   <SiteHeader />
   <main class="page-shell">
     <article class="container prose">

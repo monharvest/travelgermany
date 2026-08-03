@@ -28,7 +28,7 @@ const schema = {
 };
 ---
 
-<SiteLayout title={`${article.data.title} | Travel Germany`} description={article.data.excerpt}>
+<SiteLayout title={`${article.data.title} | Travel Germany`} description={article.data.excerpt} image={article.data.featuredImage} type="article">
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <SiteHeader />
   <main class="page-shell">

@@ -9,7 +9,6 @@ categories: []
 tags: []
 ---
 
-<h1 class="wp-block-heading">About Travel Germany</h1>
 
 <h2 class="wp-block-heading">Discover the Hidden Heart of Deutschland</h2>
 

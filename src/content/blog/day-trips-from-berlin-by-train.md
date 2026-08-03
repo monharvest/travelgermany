@@ -4,7 +4,7 @@ title: "8 Day Trips From Berlin by Train"
 slug: "day-trips-from-berlin-by-train"
 date: "2026-07-06T04:45:49.725+00:00"
 excerpt: "Plan smart day trips from Berlin by train with 8 rewarding escapes, from palace towns and lakes to Saxon gems and Baltic-edge history."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/697f398a-d70a-4f34-bf51-e16044388c7c.webp"
+featuredImage: "/images/blog/day-trips-from-berlin-by-train.webp"
 categories: ["Blog"]
 tags: []
 ---

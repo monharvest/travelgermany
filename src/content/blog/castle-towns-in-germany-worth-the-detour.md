@@ -4,7 +4,7 @@ title: "Castle Towns in Germany Worth the Detour"
 slug: "castle-towns-in-germany-worth-the-detour"
 date: "2026-07-04T06:00:24.328+00:00"
 excerpt: "Castle towns in Germany offer more than hilltop ruins - expect riverside fortresses, old markets, and lived-in history with real local character."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/e9be77dc-b38e-432d-8eb5-9eaf258013c8.webp"
+featuredImage: "/images/blog/castle-towns-in-germany-worth-the-detour.webp"
 categories: ["Blog"]
 tags: []
 ---

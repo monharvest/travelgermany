@@ -4,7 +4,7 @@ title: "7 Art Nouveau Cities in Germany to Know"
 slug: "art-nouveau-cities-in-germany"
 date: "2026-07-03T06:03:24.532+00:00"
 excerpt: "Art nouveau cities in Germany reveal spa glamour, bold urban design, and elegant streetscapes that reward travelers looking past the usual route."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/634627f6-407f-4e87-91f8-6e61b60c4fd9.webp"
+featuredImage: "/images/blog/art-nouveau-cities-in-germany.webp"
 categories: ["Blog"]
 tags: []
 ---

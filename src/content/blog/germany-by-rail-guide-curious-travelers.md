@@ -4,7 +4,7 @@ title: "Germany by Rail Guide for Curious Travelers"
 slug: "germany-by-rail-guide-curious-travelers"
 date: "2026-07-10T05:06:17.817+00:00"
 excerpt: "Germany by rail guide for US travelers - how to plan routes, choose passes, and enjoy a more scenic, flexible way to experience the country."
-featuredImage: "https://afocirmbqdxnkyescnev.supabase.co/storage/v1/object/public/featured-images/07b0aba9-e692-4e0e-a0e9-7af3c37ea0fe/3072261d-ed58-48a9-94e1-be7b4c7b3d49.webp"
+featuredImage: "/images/blog/germany-by-rail-guide-curious-travelers.webp"
 categories: ["Blog"]
 tags: []
 ---

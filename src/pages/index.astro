@@ -33,8 +33,8 @@ const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categorie
           <h1>Germany beyond guidebooks.</h1>
           <p>Small towns, spa villages, and places guidebooks skip — Germany beyond the postcards.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="/stories">Read stories</a>
-            <a class="btn" href="/about-us">About us</a>
+            <a class="btn primary" href="/stories/">Read stories</a>
+            <a class="btn" href="/about-us/">About us</a>
           </div>
         </div>
         <div class="hero-image">
@@ -50,11 +50,11 @@ const uniqueCategories = [...new Set(posts.flatMap((post) => post.data.categorie
     <section class="section container">
       <div class="section-head">
         <h2>Latest Destinations</h2>
-        <a class="muted" href="/stories">See all</a>
+        <a class="muted" href="/stories/">See all</a>
       </div>
       <div class="grid posts-grid">
         {latest.map((post) => (
-          <PostCard href={`/stories/${post.data.slug}`} title={post.data.title} excerpt={post.data.excerpt || excerptFromContent(post.body ?? '')} date={post.data.date} image={post.data.featuredImage || firstImageFromContent(post.body ?? '')} category={post.data.categories[0] || 'Travel Story'} />
+          <PostCard href={`/stories/${post.data.slug}/`} title={post.data.title} excerpt={post.data.excerpt || excerptFromContent(post.body ?? '')} date={post.data.date} image={post.data.featuredImage || firstImageFromContent(post.body ?? '')} category={post.data.categories[0] || 'Travel Story'} />
         ))}
       </div>
     </section>

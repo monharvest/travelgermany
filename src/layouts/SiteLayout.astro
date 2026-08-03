@@ -4,14 +4,19 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  type?: 'article' | 'website';
 }
 
 const {
   title = 'Travel Germany',
   description = 'Explore the land of old and beauty.',
+  image,
+  type = 'website',
 } = Astro.props;
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL(image || '/images/blog/hidden-gems-in-germany.webp', Astro.site).toString();
 ---
 
 <!doctype html>
@@ -21,6 +26,16 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="Travel Germany" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl.toString()} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <meta name="twitter:image" content={socialImage} />}
     <slot name="head" />
     <meta name="generator" content={Astro.generator} />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-124N0S5ZQR"></script>
