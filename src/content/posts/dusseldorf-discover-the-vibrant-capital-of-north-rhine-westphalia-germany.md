@@ -13,6 +13,8 @@ tags: ["Düsseldorf travel guide", "NRW Germany capital", "Düsseldorf attractio
 
 <p>Welcome to Düsseldorf, the elegant capital of North Rhine-Westphalia (NRW) Germany. Situated along the Rhine River, this cosmopolitan city seamlessly blends historical charm with modern innovation. As the political and cultural heart of Germany's most populous state, Düsseldorf serves as both the seat of the NRW government and a thriving international business hub. The city's strategic location at the center of the Rhine-Ruhr metropolitan region has established it as one of Western Europe's most dynamic urban centers.</p>
 
+<p>For a wider itinerary that uses Düsseldorf as a base, see our <a href="/blog/north-rhine-westphalia-travel-guide/">North Rhine-Westphalia travel guide</a>.</p>
+
 <div class="img-container">
 
 <p class="img-caption">Panoramic view of Düsseldorf, the vibrant capital city of North Rhine-Westphalia</p>

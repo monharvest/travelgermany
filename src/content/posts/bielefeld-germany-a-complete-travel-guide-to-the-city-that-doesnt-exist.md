@@ -13,6 +13,8 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 
 <p>Nestled in the heart of North Rhine-Westphalia, Bielefeld is perhaps Germany's most enigmatic city—famous for supposedly not existing at all. The "Bielefeld Conspiracy" joke, which began in the 1990s, playfully suggests that this city of 330,000 people is merely an illusion. But venture beyond the meme, and you'll discover a charming destination where medieval history meets modern culture, all framed by the beautiful Teutoburg Forest.</p>
 
+<p>For a wider itinerary that connects Bielefeld with the rest of the state, see our <a href="/blog/north-rhine-westphalia-travel-guide/">North Rhine-Westphalia travel guide</a>.</p>
+
 <div class="img-container">
 
 </div>

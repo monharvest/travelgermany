@@ -13,6 +13,8 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
   
 
 <p>Nestled in the eastern slopes of the Eggegebirge in North Rhine-Westphalia, Bad Driburg offers a perfect blend of natural beauty, wellness traditions, and rich history. This charming German spa town, located about 20 km east of Paderborn, has been a sanctuary for relaxation and healing since the 18th century. With its mineral springs, historic architecture, and lush landscapes, Bad Driburg invites visitors to experience authentic German spa culture while exploring the natural wonders of the Teutoburger Wald region.</p>
+
+<p>For a wider itinerary that balances spa time with the region's cities and historic towns, see our <a href="/blog/north-rhine-westphalia-travel-guide/">North Rhine-Westphalia travel guide</a>.</p>
 </section><section id="history">
 <h2>A Rich History of Healing Waters</h2>
 

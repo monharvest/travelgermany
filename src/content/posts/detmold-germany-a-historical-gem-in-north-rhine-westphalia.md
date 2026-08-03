@@ -14,6 +14,8 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 
 <p>Nestled in the scenic Teutoburg Forest region, Detmold combines rich German history with vibrant cultural experiences. Once the proud capital of the Principality of Lippe, this charming city of 74,000 residents now serves as a gateway to some of Western Germany's most fascinating historical sites and natural landscapes. Whether you're drawn to impressive monuments, Renaissance architecture, or outdoor adventures, Detmold offers a perfect blend of past and present that captivates visitors from around the world.</p>
 
+<p>For a wider route through the region, see our <a href="/blog/north-rhine-westphalia-travel-guide/">North Rhine-Westphalia travel guide</a>.</p>
+
 <div class="img-container">
     
 <p class="img-caption">The picturesque city of Detmold with its historic center and surrounding landscapes</p>
