@@ -110,7 +110,7 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 </div>
 
 <h3>Externsteine Rock Formation</h3>
-<p>Just 12 kilometers south of Detmold lies the extraordinary Externsteine, a series of distinctive sandstone rock formations rising dramatically from the forest floor. These unusual natural monuments have fascinated visitors for centuries and were once used for pagan rituals before Christianization. Today, visitors can climb to viewing platforms, explore small caves, and learn about the site's archaeological significance at the information center.</p>
+<p>Just 12 kilometers south of Detmold lies the extraordinary Externsteine, a series of distinctive sandstone rock formations rising dramatically from the forest floor. These unusual natural monuments have fascinated visitors for centuries and were once used for pagan rituals before Christianization. Today, visitors can climb to viewing platforms, explore small caves, and learn about the site's archaeological significance at the information center. For current access, tickets, and transport planning, read our <a href="/stories/externsteine-teutoburg-forest-practical-visit-guide/">practical Externsteine visit guide</a>.</p>
 
 <div class="img-container">
 <img src="/wp-content/uploads/2025/05/The-mystical-Externsteine-rock-formation-near-Detmold-Germany-1024x683.jpeg" alt="The mystical Externsteine rock formation near Detmold, Germany" title="The mystical Externsteine rock formation near Detmold, Germany" width="640" height="427" class="aligncenter size-large wp-image-1966" />
