@@ -30,7 +30,7 @@ const heroImage = heroPath ? allImages[heroPath.replace('/wp-content/uploads/', 
     <article class="container prose">
       <p class="kicker">{post.data.categories[0] || 'Travel Story'}</p>
       <h1>{post.data.title}</h1>
-      <p class="muted">{formatDate(post.data.date)}</p>
+      <p class="muted">{formatDate(post.data.date)}{post.data.updatedDate ? ` · Updated ${formatDate(post.data.updatedDate)}` : ''}</p>
       {heroImage ? (
         <Image src={heroImage} alt={post.data.title} width={1400} height={900} loading="eager" format="webp" quality={80} />
       ) : heroPath ? (

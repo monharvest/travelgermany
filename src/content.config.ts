@@ -6,6 +6,9 @@ const baseSchema = z.object({
   title: z.string(),
   slug: z.string(),
   date: z.string(),
+  // Set when an article has been re-verified, so the page can show an
+  // "Updated" stamp — the plan's counter to the stale-site signal.
+  updatedDate: z.string().optional(),
   excerpt: z.string().default(''),
   featuredImage: z.string().default(''),
   categories: z.array(z.string()).default([]),

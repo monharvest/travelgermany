@@ -35,7 +35,7 @@ const schema = {
     <article class="container prose">
       <p class="kicker">Blog</p>
       <h1>{article.data.title}</h1>
-      <p class="muted">Published {formatDate(article.data.date)}</p>
+      <p class="muted">Published {formatDate(article.data.date)}{article.data.updatedDate ? ` · Updated ${formatDate(article.data.updatedDate)}` : ''}</p>
       {article.data.featuredImage && <img src={article.data.featuredImage} alt="" width="1200" height="675" loading="eager" decoding="async" />}
       <Content />
     </article>
