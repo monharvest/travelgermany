@@ -67,7 +67,7 @@ tags: ["Rhine Valley", "Bacharach", "Oberwesel", "Middle Rhine", "Rhineland-Pala
 
 <p>The <strong>left bank railway</strong> runs along the water from Köln through Koblenz to Mainz, and the RB26 MittelrheinBahn stops at both Bacharach and Oberwesel roughly hourly, along with St. Goar, Boppard and the rest. Bacharach to Koblenz takes about forty minutes. Both stations are a short walk from the town centres — there is no transfer, no shuttle bus, no last-mile problem.</p>
 
-<p>The <a href="https://www.bahn.de/angebot/regio/deutschland-ticket" target="_blank" rel="noopener"><strong>Deutschlandticket</strong></a> covers all of it. At <strong>€63 per month</strong>, it is valid nationwide on regional trains, buses, trams and U-Bahn, which includes every RB and RE service in this valley. It does <em>not</em> cover ICE, IC or EC long-distance trains, so a fast train down from Köln or up from Frankfurt needs its own ticket. For a stay of several days built on regional trains, it usually pays for itself quickly — our <a href="/blog/germany-train-travel-tips/">Germany train travel tips</a> and <a href="/blog/germany-scenic-train-routes/">scenic train routes guide</a> go further into how to plan around it.</p>
+<p>The <a href="https://www.bahn.de/angebot/regio/deutschland-ticket" target="_blank" rel="noopener"><strong>Deutschlandticket</strong></a> covers all of it. At <strong>€63 per month in 2026</strong> (€66.80 from 1 January 2027), it is valid nationwide on regional trains, buses, trams and U-Bahn, which includes every RB and RE service in this valley. It does <em>not</em> cover ICE, IC or EC long-distance trains, so a fast train down from Köln or up from Frankfurt needs its own ticket. For a stay of several days built on regional trains, it usually pays for itself quickly — our <a href="/blog/germany-train-travel-tips/">Germany train travel tips</a> and <a href="/blog/germany-scenic-train-routes/">scenic train routes guide</a> go further into how to plan around it.</p>
 
 <p><strong>Rhine boats</strong> are the scenic alternative. <a href="https://www.k-d.com/en/" target="_blank" rel="noopener">KD</a> runs scheduled services through this stretch and publishes a seasonal timetable, and a one-way leg by boat with a train back is a good way to see the valley from the water without committing a whole day. Two caveats: fares are separate from any rail ticket, and low water causes cancellations and schedule changes — the operator was flagging exactly that during the 2026 season. Treat the boat as a bonus rather than the backbone of your plan.</p>
 
@@ -78,7 +78,7 @@ tags: ["Rhine Valley", "Bacharach", "Oberwesel", "Middle Rhine", "Rhineland-Pala
     <tr><th>Item</th><th>Detail (checked August 2026)</th></tr>
   </thead>
   <tbody>
-    <tr><td>Deutschlandticket</td><td>€63 per month; regional trains, buses, trams, U-Bahn. Not valid on ICE/IC/EC.</td></tr>
+    <tr><td>Deutschlandticket</td><td>€63 per month in 2026, €66.80 from 1 January 2027; regional trains, buses, trams, U-Bahn. Not valid on ICE/IC/EC.</td></tr>
     <tr><td>Train line</td><td>RB26 MittelrheinBahn, Köln–Koblenz–Mainz, roughly hourly. Stops at Bacharach and Oberwesel.</td></tr>
     <tr><td>Bacharach → Koblenz</td><td>About 40 minutes by regional train.</td></tr>
     <tr><td>Oberwesel town wall</td><td>16 of 21 original towers standing; long walkable stretches; free.</td></tr>
@@ -117,7 +117,7 @@ tags: ["Rhine Valley", "Bacharach", "Oberwesel", "Middle Rhine", "Rhineland-Pala
 <p>By passenger ferry from Kaub on the right bank — there is no other access, and the fare is included in the €8 adult admission. From Oberwesel you first cross on the Kaub–Engelsburg ferry. The island ferry cannot run when the Rhine is high, so check the official site the same morning.</p>
 
 <h3>Is the Deutschlandticket worth it for a Rhine trip?</h3>
-<p>For anything beyond a single day, usually yes. At €63 per month it covers every regional train, bus and tram in the valley, including the RB26. It does not cover ICE, IC or EC services, so long-distance legs to and from the region need separate tickets.</p>
+<p>For anything beyond a single day, usually yes. At €63 per month in 2026 (€66.80 from 1 January 2027) it covers every regional train, bus and tram in the valley, including the RB26. It does not cover ICE, IC or EC services, so long-distance legs to and from the region need separate tickets.</p>
 
 <div class="img-container">
 <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=7.70,50.03,7.82,50.14&amp;layer=mapnik" width="100%" height="420" style="border:1px solid #ccc" loading="lazy" title="Map of the Middle Rhine between Bacharach, Oberwesel and Kaub"></iframe>
@@ -166,7 +166,7 @@ tags: ["Rhine Valley", "Bacharach", "Oberwesel", "Middle Rhine", "Rhineland-Pala
       "name": "Is the Deutschlandticket worth it for a Rhine trip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For anything beyond a single day, usually yes. At €63 per month it covers every regional train, bus and tram in the valley, including the RB26. It does not cover ICE, IC or EC services, so long-distance legs need separate tickets."
+        "text": "For anything beyond a single day, usually yes. At €63 per month in 2026 (€66.80 from 1 January 2027) it covers every regional train, bus and tram in the valley, including the RB26. It does not cover ICE, IC or EC services, so long-distance legs need separate tickets."
       }
     }
   ]

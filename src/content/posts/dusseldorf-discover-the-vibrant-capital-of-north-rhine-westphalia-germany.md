@@ -347,7 +347,7 @@ tags: ["Düsseldorf travel guide", "NRW Germany capital", "Düsseldorf attractio
 <div>
 <h4>Public Transportation</h4>
 <p>The Düsseldorf Stadtbahn (light rail) and tram network form the backbone of the city's public transit system. Visitors can purchase single tickets, day passes, or group tickets from machines at stations or using the Rheinbahn app.</p>
-<p>The VRR transportation network extends throughout the Rhine-Ruhr region, allowing easy day trips to other NRW cities. The NRW-Ticket offers unlimited travel throughout North Rhine-Westphalia for a single day, making it ideal for exploring beyond Düsseldorf.</p>
+<p>The VRR transportation network extends throughout the Rhine-Ruhr region, allowing easy day trips to other NRW cities. The <a href="https://www.vrr.de/tickets-tarife/ticketuebersicht/ticket/nrw/24hticket-nrw-single/" target="_blank" rel="noopener">24hTicket NRW</a> (€39.80 for one person, checked October 2026) covers 24 hours of buses, trams and regional trains across North Rhine-Westphalia, but not ICE, IC or EC trains, making it ideal for exploring beyond Düsseldorf. If you already have a Deutschlandticket (€63 a month in 2026, €66.80 from 1 January 2027), you do not need it.</p>
 </div>
 <div>
 <h4>Airport Connections</h4>

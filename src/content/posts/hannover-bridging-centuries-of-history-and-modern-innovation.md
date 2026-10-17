@@ -140,7 +140,7 @@ tags: ["Hannover history", "Innovation in Hannover", "Hanover architecture", "Hi
 </div>
 <div>
 <h3>Transportation</h3>
-<p>Hannover boasts an excellent public transportation system that makes exploring both historical and modern attractions convenient. The Hannover Card offers unlimited travel on buses, trams, and trains, plus discounts to many attractions. The city's compact center makes walking a pleasant option, while the extensive bicycle path network provides an eco-friendly alternative. For a unique perspective, boat tours on the Maschsee Lake or River Leine offer views of the city from the water.</p>
+<p>Hannover boasts an excellent public transportation system that makes exploring both historical and modern attractions convenient. The HannoverCard tourist offers unlimited travel on buses, trams, and trains, plus discounts to many attractions. The city's compact center makes walking a pleasant option, while the extensive bicycle path network provides an eco-friendly alternative. For a unique perspective, boat tours on the Maschsee Lake or River Leine offer views of the city from the water.</p>
 
 <h3>Seasonal Considerations</h3>
 <p>Different seasons showcase various aspects of Hannover old and new. Summer brings the Maschsee Festival and outdoor concerts in Herrenhausen Gardens, while December transforms the Old Town into a magical Christmas market. Spring offers the perfect weather for exploring the city's extensive parks, and autumn brings vibrant colors to the Eilenriede, Europe's largest urban forest.</p>
@@ -180,8 +180,8 @@ tags: ["Hannover history", "Innovation in Hannover", "Hanover architecture", "Hi
 
 <div class="cta-block">
 <h3 class="cta-block-title">Navigate Hannover Like a Local</h3>
-<p class="cta-block-text">Get the Hannover Card for unlimited public transportation and discounts to major attractions, making it easy to explore both historical and modern sites.</p>
-<a href="https://www.hannover.de/en/Tourism-Culture/Visit-Hannover/Tourist-Information/Hannover-Card" target="_blank" class="cta-btn">Get Your Hannover Card</a>
+<p class="cta-block-text">Get the HannoverCard tourist for unlimited public transportation and discounts to major attractions, making it easy to explore both historical and modern sites.</p>
+<a href="https://www.visit-hannover.com/en/Kultur-Sehensw%C3%BCrdigkeiten/Tourist-Information-Hannover/HannoverCard-tourist-Die-Erlebniskarte" target="_blank" rel="noopener" class="cta-btn">Get Your HannoverCard</a>
 </div>
 </section><section id="conclusion">
 <h2>Embracing the Duality: Why Hannover Old and New Captivates Visitors</h2>

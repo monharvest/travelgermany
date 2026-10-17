@@ -249,10 +249,10 @@ tags: ["Hamburg Travel Guide", "Maritime Attractions", "German Port City", "Elbe
 <tr><td>Day ticket (1–2 fare rings)</td><td>Until 6am the next day</td><td>Several journeys in one day</td><td>€8.20</td></tr>
 <tr><td>Group ticket (1–2 fare rings)</td><td>Until 6am the next day</td><td>Groups travelling together</td><td>€16.40</td></tr>
 <tr><td>Hamburg CARD</td><td>1–5 days</td><td>Public transport plus participating discounts</td><td>From €12.90</td></tr>
-<tr><td>Deutschlandticket</td><td>Monthly subscription</td><td>Regional and local travel across Germany; not ICE, IC or EC</td><td>€63/month</td></tr>
+<tr><td>Deutschlandticket</td><td>Monthly subscription</td><td>Regional and local travel across Germany; not ICE, IC or EC</td><td>€63/month in 2026; €66.80/month from 1 Jan 2027</td></tr>
 </tbody></table></div>
 
-<p><small>Prices checked July 2026 against <a href="https://www.hvv.de/en/tickets/single-day-tickets">hvv single and day tickets</a>, <a href="https://www.hvv.de/en/deutschlandticket-en">hvv Deutschlandticket</a>, and <a href="https://www.hamburg-travel.com/booking/hamburg-card/">Hamburg CARD</a>. Fares and conditions can change; check the operator before buying.</small></p>
+<p><small>Prices checked July 2026 against <a href="https://www.hvv.de/en/tickets/single-day-tickets">hvv single and day tickets</a>, <a href="https://www.hvv.de/en/deutschlandticket-en">hvv Deutschlandticket</a>, and <a href="https://www.hamburg-travel.com/booking/hamburg-card/">Hamburg CARD</a>; the 2027 Deutschlandticket price was checked in October 2026 on <a href="https://www.bahn.de/angebot/regio/deutschland-ticket">bahn.de</a>. Fares and conditions can change; check the operator before buying.</small></p>
 
 <div class="highlight-box">
 <p><strong>Pro Tip:</strong> The Hamburg CARD offers unlimited public transportation plus discounts of up to 50% on major attractions, harbor cruises, and selected restaurants. It's available for 1-5 days and is usually a good value if you plan to visit several attractions.</p>

@@ -204,7 +204,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <div class="column-card">
 <h3>Budget-Friendly Tips</h3>
 <ul class="custom-list">
-<li>The Bielefeld Welcome Card offers free public transportation and discounts to major attractions</li>
+<li>The <a href="https://www.bielefeld-marketing.de/entdeckerkarte" target="_blank" rel="noopener">Bielefeld Entdecker-Karte</a> (€10 for one day, €16 for three days, per person) covers buses, the StadtBahn and local trains within the city, plus free entry to nine museums and one guided city tour or sightseeing bus tour</li>
 <li>Many museums offer reduced admission on specific weekdays</li>
 <li>Heimat-Tierpark Olderdissen is completely free to visit</li>
 <li>Picnic in the Teutoburg Forest instead of dining out for every meal</li>
