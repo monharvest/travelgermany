@@ -45,7 +45,7 @@ tags: ["Hannover history", "Innovation in Hannover", "Hanover architecture", "Hi
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Historic Hannover</h3>
 <p class="cta-block-text">Step back in time with a guided tour of Hannover's most significant historical landmarks. Expert guides bring the city's royal connections and medieval past to life.</p>
-<a href="https://www.hannover.de/en/Tourism-Culture/Places-of-Interest-City-Tours/Tourist-Information" target="_blank" class="cta-btn">Book a Historical Tour</a>
+<a href="https://www.visit-hannover.com/en/Kultur-Sehensw%C3%BCrdigkeiten/Stadttouren/%C3%96ffentliche-Stadttouren-und-F%C3%BChrungen" target="_blank" rel="noopener" class="cta-btn">Book a Historical Tour</a>
 </div>
 </section><section id="modern-attractions">
 <h2>Modern Hannover: Innovation and Contemporary Appeal</h2>
@@ -82,7 +82,7 @@ tags: ["Hannover history", "Innovation in Hannover", "Hanover architecture", "Hi
 <div class="cta-block">
 <h3 class="cta-block-title">Discover Modern Hannover</h3>
 <p class="cta-block-text">Experience the innovative side of Hannover with a guided tour of the city's contemporary highlights, from award-winning architecture to cutting-edge cultural venues.</p>
-<a href="https://www.visit-hannover.com/en/Sightseeing-City-Tours/City-Tours" target="_blank" class="cta-btn">Explore Modern Attractions</a>
+<a href="https://www.visit-hannover.com/en/Kultur-Sehensw%C3%BCrdigkeiten/Stadttouren" target="_blank" rel="noopener" class="cta-btn">Explore Modern Attractions</a>
 </div>
 </section><section id="cultural-evolution">
 <h2>Cultural Evolution: From Royal Traditions to Contemporary Expression</h2>
@@ -119,7 +119,7 @@ tags: ["Hannover history", "Innovation in Hannover", "Hanover architecture", "Hi
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Hannover's Cultural Scene</h3>
 <p class="cta-block-text">From traditional festivals to cutting-edge art exhibitions, immerse yourself in Hannover's diverse cultural offerings with special event tickets and guided experiences.</p>
-<a href="https://www.hannover.de/en/Tourism-Culture/Culture-Leisure/Highlights/Festivals-in-Hannover" target="_blank" class="cta-btn">Discover Cultural Events</a>
+<a href="https://www.visit-hannover.com/en/Event-Highlights,-Kultur-Freizeit/Top-Events-und-Veranstaltungen" target="_blank" rel="noopener" class="cta-btn">Discover Cultural Events</a>
 </div>
 </section><section id="practical-tips">
 <h2>Practical Tips: Experiencing the Best of Hannover Old and New</h2>
