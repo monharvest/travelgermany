@@ -1,6 +1,7 @@
 ---
 id: "2253"
 title: "Ultimate Travel Guide to Hamburg, Germany: Maritime Magic Meets Urban Cool"
+seoTitle: "Hamburg Travel Guide: Maritime Magic Meets Urban Cool"
 slug: "ultimate-travel-guide-to-hamburg-germany-maritime-magic-meets-urban-cool"
 date: "2025-08-24 12:09:53"
 updatedDate: "2026-08-24"

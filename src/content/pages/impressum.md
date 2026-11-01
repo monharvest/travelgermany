@@ -3,7 +3,7 @@ id: "impressum"
 title: "Imprint"
 slug: "impressum"
 date: "2026-07-11"
-excerpt: "Provider and contact information for Travel Germany."
+excerpt: "Imprint for Travel Germany (travelgermany.info): site provider, contact email, editorial responsibility, and a note on the external sites we link to."
 featuredImage: ""
 categories: []
 tags: []

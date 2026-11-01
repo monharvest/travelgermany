@@ -1,6 +1,7 @@
 ---
 id: "1990"
 title: "Bielefeld, Germany: A Complete Travel Guide to the City That \"Doesn't Exist\""
+seoTitle: "Bielefeld Travel Guide: The City That \"Doesn't Exist\""
 slug: "bielefeld-germany-a-complete-travel-guide-to-the-city-that-doesnt-exist"
 date: "2025-05-20 17:56:16"
 excerpt: "Nestled in the heart of North Rhine-Westphalia, Bielefeld is perhaps Germany's most enigmatic city—famous for supposedly not existing at all. The \"Bielefeld Conspiracy\" joke, which..."

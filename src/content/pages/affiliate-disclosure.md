@@ -3,7 +3,7 @@ id: "affiliate-disclosure"
 title: "Affiliate Disclosure"
 slug: "affiliate-disclosure"
 date: "2026-07-11"
-excerpt: "How Travel Germany will disclose affiliate relationships."
+excerpt: "Travel Germany does not currently use affiliate links. If that changes, this page explains how affected articles will be clearly disclosed to readers."
 featuredImage: ""
 categories: []
 tags: []

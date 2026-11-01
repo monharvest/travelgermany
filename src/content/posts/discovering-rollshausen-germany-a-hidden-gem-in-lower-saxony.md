@@ -1,6 +1,7 @@
 ---
 id: "2040"
 title: "Discovering Rollshausen, Germany: A Hidden Gem in Lower Saxony"
+seoTitle: "Rollshausen, Germany: A Hidden Gem in Lower Saxony"
 slug: "discovering-rollshausen-germany-a-hidden-gem-in-lower-saxony"
 date: "2025-05-22 17:08:58"
 excerpt: "Nestled in the picturesque landscapes of Lower Saxony, Rollshausen, Germany is a charming village that offers travelers an authentic glimpse into rural German life. With its rich h..."

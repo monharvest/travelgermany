@@ -1,6 +1,7 @@
 ---
 id: "2059"
 title: "Salzkotten, Germany: Ein charmantes Reiseziel im Herzen von Nordrhein-Westfalen"
+seoTitle: "Salzkotten, Germany: Ein Reiseziel in Nordrhein-Westfalen"
 slug: "salzkotten-germany-ein-charmantes-reiseziel-im-herzen-von-nordrhein-westfalen"
 date: "2025-06-08 11:02:37"
 excerpt: "Willkommen in Salzkotten, einer historischen Stadt mit reicher Tradition und faszinierender Kultur. Benannt nach ihrer Vergangenheit als bedeutendes Zentrum der Salzproduktion, bie..."

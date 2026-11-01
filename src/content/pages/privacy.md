@@ -3,7 +3,7 @@ id: "privacy"
 title: "Privacy"
 slug: "privacy"
 date: "2026-07-11"
-excerpt: "How Travel Germany handles site data and third-party services."
+excerpt: "How Travel Germany handles site data: Google Analytics for aggregate usage, how we use contact details you send us, and how to request access or deletion."
 featuredImage: ""
 categories: []
 tags: []

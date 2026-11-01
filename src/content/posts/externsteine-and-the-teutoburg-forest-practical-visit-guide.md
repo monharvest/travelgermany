@@ -1,6 +1,7 @@
 ---
 id: "externsteine-20260807"
 title: "Externsteine and the Teutoburg Forest: A Practical Visit Guide"
+seoTitle: "Externsteine & Teutoburg Forest: Practical Visit Guide"
 slug: "externsteine-teutoburg-forest-practical-visit-guide"
 date: "2026-08-07T19:17:30+02:00"
 excerpt: "Plan an Externsteine visit with clear advice on the rock climb, tickets, parking, bus access, and nearby stops in the Teutoburg Forest."

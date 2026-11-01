@@ -9,7 +9,7 @@ const articles = (await getCollection('blog')).sort((a, b) => (a.data.date < b.d
 const articleSlugs = articles.map((article) => article.data.slug);
 ---
 
-<SiteLayout title="Blog | Travel Germany" description="Practical travel notes and hidden places across Germany.">
+<SiteLayout title="Blog | Travel Germany" description="Practical Germany travel notes: train tips, scenic rail routes, spa and castle towns, and hidden places worth the detour in every region.">
   <SiteHeader />
   <main class="page-shell">
     <section class="container">

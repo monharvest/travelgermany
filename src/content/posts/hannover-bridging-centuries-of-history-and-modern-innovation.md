@@ -1,6 +1,7 @@
 ---
 id: "2085"
 title: "Hannover: Bridging Centuries of History and Modern Innovation"
+seoTitle: "Hannover: Centuries of History and Modern Innovation"
 slug: "hannover-bridging-centuries-of-history-and-modern-innovation"
 date: "2025-07-05 10:17:45"
 excerpt: "In the heart of Lower Saxony lies a city of fascinating contrasts. Hannover old and new stands as a testament to Germany's ability to honor its rich heritage while boldly embracing..."

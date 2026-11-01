@@ -9,6 +9,14 @@ export function stripHtml(html: string): string {
     .trim();
 }
 
+const TITLE_SUFFIX = ' | Travel Germany';
+
+// Keeps <title> under ~60 characters: the brand suffix is only added when it fits.
+export function pageTitle(title: string, seoTitle?: string): string {
+  const base = seoTitle || title;
+  return base.length + TITLE_SUFFIX.length <= 60 ? `${base}${TITLE_SUFFIX}` : base;
+}
+
 export function excerptFromContent(html: string, max = 150): string {
   const text = stripHtml(html);
   if (text.length <= max) return text;

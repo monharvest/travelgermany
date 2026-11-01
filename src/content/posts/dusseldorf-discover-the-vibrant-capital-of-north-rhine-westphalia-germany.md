@@ -1,6 +1,7 @@
 ---
 id: "2208"
 title: "Düsseldorf Travel Guide: Altstadt, Little Tokyo & Rhine Sights"
+seoTitle: "Düsseldorf Travel Guide: Altstadt, Little Tokyo & the Rhine"
 slug: "dusseldorf-discover-the-vibrant-capital-of-north-rhine-westphalia-germany"
 date: "2025-07-14 13:50:19"
 excerpt: "Plan a Düsseldorf city break with Altstadt, Little Tokyo, MedienHafen, Rhine walks, museums, Altbier, and easy day trips across NRW."

@@ -4,6 +4,8 @@ import { glob } from 'astro/loaders';
 const baseSchema = z.object({
   id: z.string(),
   title: z.string(),
+  // Shorter <title> for search results when the H1 runs past ~60 characters.
+  seoTitle: z.string().optional(),
   slug: z.string(),
   date: z.string(),
   // Set when an article has been re-verified, so the page can show an

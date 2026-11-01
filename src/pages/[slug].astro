@@ -4,6 +4,7 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import ContactForm from '../components/ContactForm.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { pageTitle } from '../lib/content';
 
 export const prerender = true;
 
@@ -16,7 +17,7 @@ const { page } = Astro.props;
 const { Content } = await render(page);
 ---
 
-<SiteLayout title={`${page.data.title} | Travel Germany`} description={page.data.excerpt}>
+<SiteLayout title={pageTitle(page.data.title, page.data.seoTitle)} description={page.data.excerpt}>
   <SiteHeader />
   <main class="page-shell">
     <article class="container prose">

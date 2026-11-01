@@ -1,6 +1,7 @@
 ---
 id: "rhine-left-bank-20260807"
 title: "Rhine Valley Without the Crowds: Bacharach, Oberwesel and the Quiet Left Bank"
+seoTitle: "Rhine Valley Without the Crowds: Bacharach & Oberwesel"
 slug: "rhine-valley-without-the-crowds-bacharach-oberwesel"
 date: "2026-08-07T21:40:00+02:00"
 excerpt: "Skip the tour-bus stops on the Middle Rhine. A practical guide to Bacharach and Oberwesel by train, with the walk between them, the Kaub ferry, and current prices."

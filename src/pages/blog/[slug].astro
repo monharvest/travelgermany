@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-import { formatDate } from '../../lib/content';
+import { formatDate, pageTitle } from '../../lib/content';
 
 export const prerender = true;
 
@@ -28,7 +28,7 @@ const schema = {
 };
 ---
 
-<SiteLayout title={`${article.data.title} | Travel Germany`} description={article.data.excerpt} image={article.data.featuredImage} type="article">
+<SiteLayout title={pageTitle(article.data.title, article.data.seoTitle)} description={article.data.excerpt} image={article.data.featuredImage} type="article">
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <SiteHeader />
   <main class="page-shell">
