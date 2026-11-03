@@ -20,7 +20,7 @@ tags: ["Salzkotten Reiseführer", "Deutschland", "Sehenswürdigkeiten Salzkotten
 <div class="cta-block">
 <h3 class="cta-block-title">Bereit für Ihr Abenteuer in Salzkotten?</h3>
 <p class="cta-block-text">Entdecken Sie alle aktuellen Veranstaltungen und Angebote auf der offiziellen Website.</p>
-<a href="https://www.salzkotten.de" target="_blank" class="cta-btn">Jetzt Besuch planen</a>
+<a href="https://www.teutoburgerwald.de/region/ueberblick/staedte-orte/salzkotten" target="_blank" rel="noopener" class="cta-btn">Jetzt Besuch planen</a>
 </div>
 </section><section id="history">
 <h2>Die faszinierende Geschichte Salzkottens</h2>
