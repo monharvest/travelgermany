@@ -37,7 +37,7 @@ tags: ["Zabeltitz", "Saxony", "Baroque architecture", "Saxony travel", "Hidden g
 <p>Summer is the ideal time to experience the gardens in their full splendor, when the fountains are active and the flowerbeds burst with color. Walking paths guide visitors through different sections, each offering unique perspectives of this horticultural masterpiece.</p>
 </div>
 <div class="card-footer">
-<a href="https://www.visit-saxony.com/baroque-garden-zabeltitz" target="_blank" class="cta-btn">Explore the Baroque Garden</a>
+<a href="https://www.grossenhain.de/barockgarten-zabeltitz.html" target="_blank" rel="noopener" class="cta-btn">Explore the Baroque Garden</a>
 </div>
 </div>
 
@@ -51,7 +51,7 @@ tags: ["Zabeltitz", "Saxony", "Baroque architecture", "Saxony travel", "Hidden g
 <p>Guided tours offer insights into the palace's history and the lives of its former residents. The building's well-preserved state makes it one of the finest examples of Baroque architecture in the region.</p>
 </div>
 <div class="card-footer">
-<a href="https://www.sachsen-tourismus.de/en/attractions/zabeltitz-palace" target="_blank" class="cta-btn">Discover the Palace</a>
+<a href="https://www.grossenhain.de/barockgarten-zabeltitz/ausstellung-palais.html" target="_blank" rel="noopener" class="cta-btn">Discover the Palace</a>
 </div>
 </div>
 
@@ -65,7 +65,7 @@ tags: ["Zabeltitz", "Saxony", "Baroque architecture", "Saxony travel", "Hidden g
 <p>The church interior features historical artifacts and artwork that tell the story of religious life in Zabeltitz through the centuries. Meanwhile, the Old Castle offers a glimpse into the pre-Baroque history of the village.</p>
 </div>
 <div class="card-footer">
-<a href="https://www.kirche-zabeltitz.de" target="_blank" class="cta-btn">Visit St. George Church</a>
+<a href="https://www.grossenhain.de/st-georgen-kirche.html" target="_blank" rel="noopener" class="cta-btn">Visit St. George Church</a>
 </div>
 </div>
 
@@ -79,14 +79,14 @@ tags: ["Zabeltitz", "Saxony", "Baroque architecture", "Saxony travel", "Hidden g
 <p>Interactive displays and seasonal demonstrations bring history to life, making this an educational stop for visitors of all ages. The museum offers a perfect complement to the more aristocratic elements of Zabeltitz's heritage.</p>
 </div>
 <div class="card-footer">
-<a href="https://www.zabeltitz.de/bauernmuseum" target="_blank" class="cta-btn">Explore Rural Heritage</a>
+<a href="https://www.museen-grossenhain.de/bauernmuseum.html" target="_blank" rel="noopener" class="cta-btn">Explore Rural Heritage</a>
 </div>
 </div>
 
 <div class="cta-block">
 <h3 class="cta-block-title">Ready to Experience Zabeltitz?</h3>
 <p class="cta-block-text">Discover the perfect blend of history, architecture, and natural beauty in this hidden Saxon gem. Plan your visit today!</p>
-<a href="https://www.sachsen-tourismus.de/en/plan-your-trip" target="_blank" class="cta-btn cta-btn-large">Plan Your Visit</a>
+<a href="https://www.grossenhain.de/zabeltitz-information-1280.html" target="_blank" rel="noopener" class="cta-btn cta-btn-large">Plan Your Visit</a>
 </div>
 </section><section id="natural-surroundings">
 <h2>Natural Beauty Around Zabeltitz</h2>
@@ -171,6 +171,6 @@ tags: ["Zabeltitz", "Saxony", "Baroque architecture", "Saxony travel", "Hidden g
 <div class="cta-block">
 <h3 class="cta-block-title">Ready to Discover Zabeltitz?</h3>
 <p class="cta-block-text">Start planning your journey to this charming Saxon village and experience its unique blend of history, culture, and natural beauty.</p>
-<a href="https://www.germany.travel/en/towns-cities-culture/palaces-parks-gardens/baroque-garden-zabeltitz.html" target="_blank" class="cta-btn cta-btn-large cta-btn-full">Explore Zabeltitz Today</a>
+<a href="https://www.sachsen-tourismus.de/reiseziele/landurlaub/zabeltitz" target="_blank" rel="noopener" class="cta-btn cta-btn-large cta-btn-full">Explore Zabeltitz Today</a>
 </div>
 </section></div>

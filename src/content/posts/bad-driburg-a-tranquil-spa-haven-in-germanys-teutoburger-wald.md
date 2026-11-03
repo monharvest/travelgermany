@@ -62,7 +62,7 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
 <div class="cta-block">
 <h3 class="cta-block-title">Ready to Explore Bad Driburg's Attractions?</h3>
 <p class="cta-block-text">Discover the perfect balance of relaxation and exploration with a stay at one of Bad Driburg's welcoming accommodations.</p>
-<a href="https://www.bad-driburg.com/unterkuenfte/" target="_blank" class="cta-btn cta-btn-large" data-link="true" data-id="1" rel="nofollow">Find Your Perfect Accommodation</a>
+<a href="https://www.bad-driburg.com/gastgeber" target="_blank" class="cta-btn cta-btn-large" data-link="true" data-id="1" rel="nofollow noopener">Find Your Perfect Accommodation</a>
 </div>
 </section><section id="activities">
 <h2>Experiences and Activities</h2>
@@ -99,7 +99,7 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Bad Driburg's Natural Beauty</h3>
 <p class="cta-block-text">Discover 26 well-marked hiking trails through the stunning landscapes of the Teutoburger Wald region.</p>
-<a href="https://www.bad-driburg.com/wandern/" target="_blank" class="cta-btn" data-link="true" data-id="2" rel="nofollow">Explore Hiking Trails</a>
+<a href="https://www.bad-driburg.com/wandern-radfahren/wanderwege" target="_blank" class="cta-btn" data-link="true" data-id="2" rel="nofollow noopener">Explore Hiking Trails</a>
 </div>
 </section><section id="dining">
 <h2>Culinary Delights</h2>
@@ -122,7 +122,7 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
 <div class="cta-block">
 <h3 class="cta-block-title">Taste Authentic Westphalian Cuisine</h3>
 <p class="cta-block-text">Discover Bad Driburg's diverse dining options, from cozy cafés to fine restaurants.</p>
-<a href="https://www.bad-driburg.com/restaurants-cafes/" target="_blank" class="cta-btn" data-link="true" data-id="3" rel="nofollow">Find Restaurants &amp; Cafés</a>
+<a href="https://www.bad-driburg.com/sehen-erleben/restaurants-cafes-spezialitaeten" target="_blank" class="cta-btn" data-link="true" data-id="3" rel="nofollow noopener">Find Restaurants &amp; Cafés</a>
 </div>
 </section><section id="accommodation">
 <h2>Where to Stay</h2>
@@ -175,7 +175,7 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
 </ul>
 </div>
 <div class="card-footer">
-<a href="https://www.bad-driburg.com/unterkuenfte/" target="_blank" class="cta-btn" data-link="true" data-id="5" rel="nofollow">Find Mid-Range Hotels</a>
+<a href="https://www.bad-driburg.com/gastgeber" target="_blank" class="cta-btn" data-link="true" data-id="5" rel="nofollow noopener">Find Mid-Range Hotels</a>
 </div>
 </div>
 
@@ -191,7 +191,7 @@ tags: ["Bad Driburg", "German spa town", "Wellness getaway", "Health tourism", "
 </ul>
 </div>
 <div class="card-footer">
-<a href="https://www.bad-driburg.com/unterkuenfte/" target="_blank" class="cta-btn" data-link="true" data-id="6" rel="nofollow">Explore Budget Options</a>
+<a href="https://www.bad-driburg.com/gastgeber" target="_blank" class="cta-btn" data-link="true" data-id="6" rel="nofollow noopener">Explore Budget Options</a>
 </div>
 </div>
 </div>

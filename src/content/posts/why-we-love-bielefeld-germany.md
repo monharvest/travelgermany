@@ -44,7 +44,7 @@ tags: ["Bielefeld attractions", "Bielefeld tourism", "Germany travel", "Bielefel
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Bielefeld's History</h3>
 <p class="cta-block-text">Walk through centuries of German history with a guided tour of Bielefeld's Old Town. Local guides bring the city's stories to life while showing you hidden architectural gems.</p>
-<a href="https://www.bielefeld.de/en/tourism" target="_blank" class="cta-btn">Book a Historical Tour</a>
+<a href="https://www.bielefeld.jetzt/altstadt" target="_blank" rel="noopener" class="cta-btn">Book a Historical Tour</a>
 </div>
 </section><section id="nature-urban">
 <h2>Nature Meets Urban Life: Bielefeld's Green Spaces</h2>
@@ -227,6 +227,6 @@ tags: ["Bielefeld attractions", "Bielefeld tourism", "Germany travel", "Bielefel
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Bielefeld For Yourself</h3>
 <p class="cta-block-text">Ready to discover this charming German city that supposedly "doesn't exist"? Start planning your Bielefeld adventure today and uncover its many treasures.</p>
-<a href="https://www.bielefeld.de/en/tourism" target="_blank" class="cta-btn cta-btn-large">Plan Your Visit</a>
+<a href="https://www.bielefeld.jetzt/tourist-information" target="_blank" rel="noopener" class="cta-btn cta-btn-large">Plan Your Visit</a>
 </div>
 </section></div>

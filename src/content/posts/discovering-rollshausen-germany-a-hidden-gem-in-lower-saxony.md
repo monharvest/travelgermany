@@ -78,11 +78,6 @@ tags: ["Hidden Gem", "Rollshausen", "Lower Saxony", "German Village", "Rural Ger
 
 <p>Today, Rollshausen preserves its historical heritage through well-maintained traditional buildings and cultural practices that have been passed down through generations. Visitors can observe the influence of history in the village's architecture, layout, and the customs of its approximately 865 residents (as of 2023).</p>
 
-<div class="cta-block">
-<h3 class="cta-block-title">Explore Rollshausen's Historical Sites</h3>
-<p class="cta-block-text">Discover the rich history of Rollshausen and its surrounding region with a guided historical tour. Learn about the village's past from knowledgeable local guides.</p>
-<a href="https://www.eichsfeld-tourismus.de/" target="_blank" class="cta-btn">Book a Historical Tour</a>
-</div>
 </section><section id="culture-traditions">
 <h2>Culture and Traditions in Rollshausen</h2>
 <p>The cultural identity of Rollshausen is deeply rooted in the traditions of Lower Saxony and the unique Eichsfeld region. The village maintains a strong connection to its heritage through various celebrations, customs, and daily practices that reflect the authentic German rural experience.</p>
@@ -135,7 +130,7 @@ tags: ["Hidden Gem", "Rollshausen", "Lower Saxony", "German Village", "Rural Ger
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Rollshausen's Cultural Heritage</h3>
 <p class="cta-block-text">Plan your visit to coincide with one of Rollshausen's traditional festivals for an unforgettable cultural experience.</p>
-<a href="https://www.niedersachsen-tourism.com/experiences/traditions-customs" target="_blank" class="cta-btn">Discover Local Festivals</a>
+<a href="https://www.rollshausen.de/tourismus-freizeit/veranstaltungen/jahresuebersicht-termine/" target="_blank" rel="noopener" class="cta-btn">Discover Local Festivals</a>
 </div>
 </section><section id="attractions">
 <h2>Must-Visit Attractions in and around Rollshausen</h2>

@@ -88,7 +88,7 @@ tags: ["Salzkotten Reiseführer", "Deutschland", "Sehenswürdigkeiten Salzkotten
 <div class="cta-block">
 <h3 class="cta-block-title">Entdecken Sie alle Sehenswürdigkeiten</h3>
 <p class="cta-block-text">Planen Sie Ihre Besichtigungstour durch Salzkotten und Umgebung.</p>
-<a href="https://www.salzkotten-tourismus.de" target="_blank" class="cta-btn">Sehenswürdigkeiten erkunden</a>
+<a href="https://www.teutoburgerwald.de/region/ueberblick/staedte-orte/salzkotten" target="_blank" rel="noopener" class="cta-btn">Sehenswürdigkeiten erkunden</a>
 </div>
 </section><section id="events">
 <h2>Kulturelle Höhepunkte und jährliche Veranstaltungen</h2>
@@ -114,11 +114,6 @@ tags: ["Salzkotten Reiseführer", "Deutschland", "Sehenswürdigkeiten Salzkotten
 <h3>Hederauenfest</h3>
 <p>Das Hederauenfest findet im Hederauenpark statt und feiert die natürliche Schönheit der Region. Mit Live-Musik, Kunsthandwerk und regionalen Spezialitäten ist es besonders bei Familien beliebt. Kinder können an verschiedenen Aktivitäten teilnehmen, während Erwachsene die entspannte Atmosphäre genießen.</p>
 
-<div class="cta-block">
-<h3 class="cta-block-title">Verpassen Sie keine Veranstaltung!</h3>
-<p class="cta-block-text">Prüfen Sie den aktuellen Veranstaltungskalender für Ihren Besuch.</p>
-<a href="https://www.salzkotten.de/veranstaltungen" target="_blank" class="cta-btn">Veranstaltungskalender ansehen</a>
-</div>
 </section><section id="cuisine">
 <h2>Lokale Küche und Gastronomie</h2>
 
@@ -278,7 +273,7 @@ tags: ["Salzkotten Reiseführer", "Deutschland", "Sehenswürdigkeiten Salzkotten
 <div class="cta-block">
 <h3 class="cta-block-title">Entdecken Sie das unbekannte Salzkotten</h3>
 <p class="cta-block-text">Buchen Sie eine private Führung mit einem lokalen Guide.</p>
-<a href="https://www.salzkotten-tourismus.de/fuehrungen" target="_blank" class="cta-btn">Führung buchen</a>
+<a href="https://www.teutoburgerwald.de/region/ausflugsziele/mein-ziel/stadtfuehrung-salzkotten" target="_blank" rel="noopener" class="cta-btn">Führung buchen</a>
 </div>
 </section><section id="conclusion">
 <h2>Ihr perfekter Aufenthalt in Salzkotten</h2>
@@ -294,9 +289,4 @@ tags: ["Salzkotten Reiseführer", "Deutschland", "Sehenswürdigkeiten Salzkotten
 
 <p>Wir hoffen, dass dieser Reiseführer Ihnen hilft, das Beste aus Ihrem Besuch in Salzkotten herauszuholen. Gute Reise und unvergessliche Erlebnisse in diesem versteckten Juwel Nordrhein-Westfalens!</p>
 
-<div class="cta-block">
-<h3 class="cta-block-title">Bleiben Sie informiert über Salzkotten</h3>
-<p class="cta-block-text">Abonnieren Sie den Newsletter für aktuelle Informationen und Angebote.</p>
-<a href="https://www.salzkotten.de/newsletter" target="_blank" class="cta-btn cta-btn-full">Newsletter abonnieren</a>
-</div>
 </section></div>

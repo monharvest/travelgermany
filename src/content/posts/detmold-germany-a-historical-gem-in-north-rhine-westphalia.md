@@ -57,11 +57,6 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 <h3>Lippisches Landesmuseum</h3>
 <p>Housed in a striking half-timbered building known as the Kornhaus, this comprehensive regional museum showcases Lippe's natural history, archaeology, and cultural heritage. With exhibits spanning from prehistoric times to the modern era, the museum offers fascinating insights into the region's development. Highlights include displays on the Battle of Teutoburg Forest, folk traditions, and the princely history of Lippe.</p>
 
-<div class="cta-block">
-<h3 class="cta-block-title">Explore Detmold's Rich Heritage</h3>
-<p class="cta-block-text">Make the most of your visit with the Detmold Heritage Pass, giving you access to all major museums and attractions at a discounted price. Available for 1, 2, or 3-day options.</p>
-<a href="https://www.detmold-tourism.com/heritage-pass" target="_blank" class="cta-btn cta-btn-large">Get Your Heritage Pass</a>
-</div>
 </section><section id="cultural-highlights">
 <h2>Cultural Highlights of Detmold</h2>
 
@@ -95,7 +90,7 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 </ul>
 </div>
 <div class="card-footer">
-<a href="https://www.detmold-tourism.com/events-calendar" target="_blank" class="cta-btn">View Events Calendar</a>
+<a href="https://www.detmold.de/kultur/veranstaltungen" target="_blank" rel="noopener" class="cta-btn">View Events Calendar</a>
 </div>
 </div>
 </section><section id="outdoor-activities">
@@ -120,11 +115,6 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 <h3>Cycling and Mountain Biking</h3>
 <p>Detmold offers excellent cycling infrastructure with routes suitable for casual riders and serious mountain bikers alike. The BahnRadRoute Teuto-Senne connects Detmold with neighboring towns via former railway lines, providing a flat, family-friendly cycling experience. For more adventurous visitors, the hills of the Teutoburg Forest feature challenging mountain bike trails with varying difficulty levels.</p>
 
-<div class="cta-block">
-<h3 class="cta-block-title">Discover Detmold's Natural Beauty</h3>
-<p class="cta-block-text">Download our free Detmold Hiking &amp; Cycling Map featuring the best trails, viewpoints, and natural attractions in and around the city.</p>
-<a href="https://www.detmold-tourism.com/trail-maps" target="_blank" class="cta-btn">Download Free Trail Map</a>
-</div>
 </section><section id="practical-tips">
 <h2>Practical Tips for Visiting Detmold</h2>
 
@@ -195,6 +185,6 @@ tags: ["Detmold", "Germany", "Historical sites in Detmold", "Detmold culture", "
 <div class="cta-block">
 <h3 class="cta-block-title">Ready to Experience Detmold?</h3>
 <p class="cta-block-text">Start planning your perfect Detmold getaway with customized itineraries, accommodation options, and guided tours tailored to your interests.</p>
-<a href="https://www.detmold-tourism.com/plan-your-visit" target="_blank" class="cta-btn cta-btn-large">Plan Your Detmold Adventure</a>
+<a href="https://www.detmold.de/info/tourist-information" target="_blank" rel="noopener" class="cta-btn cta-btn-large">Plan Your Detmold Adventure</a>
 </div>
 </section></div>

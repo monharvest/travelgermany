@@ -68,7 +68,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <img src="/wp-content/uploads/2025/05/Close-up-view-of-Sparrenburg-Castle-tower-in-Bielefeld-1024x683.jpeg" alt="Close-up view of Sparrenburg Castle tower in Bielefeld" title="Close-up view of Sparrenburg Castle tower in Bielefeld" width="640" height="427" class="aligncenter size-large wp-image-1996" />
 </div>
 <div class="card-footer">
-<a href="https://www.bielefeld.de/en/tourism/sights/sparrenburg" target="_blank" class="cta-btn">Explore Sparrenburg</a>
+<a href="https://www.bielefeld.jetzt/sparrenburg" target="_blank" rel="noopener" class="cta-btn">Explore Sparrenburg</a>
 </div>
 </div>
 <div class="column-card">
@@ -88,7 +88,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <img src="/wp-content/uploads/2025/05/Old-Market-Square-in-Bielefeld-with-historic-buildings-1024x683.jpeg" alt="Old Market Square in Bielefeld with historic buildings" title="Old Market Square in Bielefeld with historic buildings" width="640" height="427" class="aligncenter size-large wp-image-1998" />
 </div>
 <div class="card-footer">
-<a href="https://www.bielefeld.de/en/tourism/sights/old-town" target="_blank" class="cta-btn">Discover Old Town</a>
+<a href="https://www.bielefeld.jetzt/altstadt" target="_blank" rel="noopener" class="cta-btn">Discover Old Town</a>
 </div>
 </div>
 </div>
@@ -111,7 +111,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <img src="/wp-content/uploads/2025/05/Botanical-Garden-in-Bielefeld-with-colorful-flowers-1024x683.jpeg" alt="Botanical Garden in Bielefeld with colorful flowers" title="Botanical Garden in Bielefeld with colorful flowers" width="640" height="427" class="aligncenter size-large wp-image-2000" />
 </div>
 <div class="card-footer">
-<a href="https://www.uni-bielefeld.de/einrichtungen/botanischer-garten/" target="_blank" class="cta-btn">Visit Botanical Garden</a>
+<a href="https://www.bielefeld.de/botanischer-garten" target="_blank" rel="noopener" class="cta-btn">Visit Botanical Garden</a>
 </div>
 </div>
 <div class="column-card">
@@ -121,7 +121,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <img src="/wp-content/uploads/2025/05/Heimat-Tierpark-Olderdissen-zoo-in-Bielefeld-with-animals-1024x683.jpeg" alt="Heimat-Tierpark Olderdissen zoo in Bielefeld with animals" title="Heimat-Tierpark Olderdissen zoo in Bielefeld with animals" width="640" height="427" class="aligncenter size-large wp-image-2001" />
 </div>
 <div class="card-footer">
-<a href="https://www.bielefeld.de/en/tourism/sights/tierpark" target="_blank" class="cta-btn">Visit Tierpark</a>
+<a href="https://www.bielefeld.de/tierpark" target="_blank" rel="noopener" class="cta-btn">Visit Tierpark</a>
 </div>
 </div>
 </div>
@@ -159,7 +159,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <div class="cta-block">
 <h3 class="cta-block-title">Experience Local Culture</h3>
 <p class="cta-block-text">Check the event calendar to see what's happening during your visit to Bielefeld.</p>
-<a href="https://www.bielefeld.de/en/tourism/events" target="_blank" class="cta-btn">View Event Calendar</a>
+<a href="https://www.bielefeld.jetzt/termine" target="_blank" rel="noopener" class="cta-btn">View Event Calendar</a>
 </div>
 </section><section id="day-trips">
 <h2>Day Trips from Bielefeld</h2>
@@ -244,7 +244,7 @@ tags: ["Bielefeld travel", "Hidden gem destinations", "Germany travel guide", "O
 <div class="cta-block">
 <h3 class="cta-block-title">Ready to Discover Bielefeld?</h3>
 <p class="cta-block-text">Start planning your trip to this charming German city that combines history, nature, and culture.</p>
-<a href="https://www.bielefeld.de/en/tourism" target="_blank" class="cta-btn cta-btn-large">Plan Your Visit Now</a>
+<a href="https://www.bielefeld.jetzt/tourist-information" target="_blank" rel="noopener" class="cta-btn cta-btn-large">Plan Your Visit Now</a>
 </div>
 
 <div class="img-container">
