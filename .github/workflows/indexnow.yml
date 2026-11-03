@@ -1,0 +1,49 @@
+# Tells Bing which pages a push to main added, changed or removed. Cloudflare
+# Pages deploys the same push on its own, so this builds the site before and
+# after the push, and scripts/indexnow.mjs diffs the two builds, waits until
+# each page is live in its new form, then submits. Bing passes the URLs on to
+# the other IndexNow engines; Google doesn't use IndexNow.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build after the push
+        run: npx astro build && mv dist "$RUNNER_TEMP/new"
+
+      - name: Build before the push
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          # A new branch or a force-push can leave no usable "before" commit; then
+          # every page counts as new, which is still correct, just noisier.
+          if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            git worktree add "$RUNNER_TEMP/old" "$BEFORE"
+            cd "$RUNNER_TEMP/old"
+            npm ci
+            npx astro build
+          fi
+
+      - name: Submit changed pages once they are live
+        run: node scripts/indexnow.mjs --old "$RUNNER_TEMP/old/dist" --new "$RUNNER_TEMP/new"
