@@ -1,5 +1,5 @@
 # Tells Bing which pages a push to main added, changed or removed. Cloudflare
-# Pages deploys the same push on its own, so this builds the site before and
+# Workers Builds deploys the same push on its own, so this builds the site before and
 # after the push, and scripts/indexnow.mjs diffs the two builds, waits until
 # each page is live in its new form, then submits. Bing passes the URLs on to
 # the other IndexNow engines; Google doesn't use IndexNow.
